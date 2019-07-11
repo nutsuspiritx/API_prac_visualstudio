@@ -1,21 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29025.244
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6892479A-C956-48D3-AB4F-160FC2A6075D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeConnect", "CodeConnect\CodeConnect.csproj", "{6BDB715A-5F4F-4B50-86BC-FEBD3B89F7EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{3053B42D-E01D-4B7F-B6D8-93B80E7D7032}"
 	ProjectSection(SolutionItems) = preProject
-		Connect Code.cs = Connect Code.cs
 		C:\Users\Sheepy\Desktop\PFC.Tools.CRMConnection\PFC.Tools.CRMConnection\ConnectionThreadSafe.cs = C:\Users\Sheepy\Desktop\PFC.Tools.CRMConnection\PFC.Tools.CRMConnection\ConnectionThreadSafe.cs
 		C:\Users\Sheepy\Desktop\PFC.Tools.CRMConnection\PFC.Tools.CRMConnection\DeviceIdManager.cs = C:\Users\Sheepy\Desktop\PFC.Tools.CRMConnection\PFC.Tools.CRMConnection\DeviceIdManager.cs
 		C:\Users\Sheepy\Desktop\PFC.Tools.CRMConnection\PFC.Tools.CRMConnection\ServerConnection.cs = C:\Users\Sheepy\Desktop\PFC.Tools.CRMConnection\PFC.Tools.CRMConnection\ServerConnection.cs
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDB715A-5F4F-4B50-86BC-FEBD3B89F7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDB715A-5F4F-4B50-86BC-FEBD3B89F7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDB715A-5F4F-4B50-86BC-FEBD3B89F7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDB715A-5F4F-4B50-86BC-FEBD3B89F7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BA258D8D-F8B8-4DCF-8802-0FC728510FE9}
+		SolutionGuid = {3EE907E2-9830-4284-B99A-D8FB29C4DB4B}
 	EndGlobalSection
 EndGlobal
